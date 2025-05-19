@@ -7,13 +7,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        app: './src/app/entrypoint/index.html',
+        app: './index.html',
       },
     },
     outDir: './docs',
     emptyOutDir: true,
   },
   server: {
-    open: '/src/app/entrypoint/index.html',
+    open: '/index.html',
   },
 })
