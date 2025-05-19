@@ -1,0 +1,12 @@
+.table {
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableCell {
+  padding: 4px 6px;
+  text-align: left;
+  font-weight: 400;
+  border: 1px solid #ddd;
+}
