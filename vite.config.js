@@ -10,7 +10,7 @@ export default defineConfig({
         app: './src/app/entrypoint/index.html',
       },
     },
-    outDir: '../docs',
+    outDir: './docs',
     emptyOutDir: true,
   },
   server: {
