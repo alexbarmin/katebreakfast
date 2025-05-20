@@ -8,7 +8,7 @@
     "build": "./optimize-photos.sh && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update": "npm run build && git add -a . && git commit -m 'content update' && git push -u origin main"
+    "update": "npm run build && git add . && git commit -m 'content update' && git push -u origin main"
   },
   "dependencies": {
     "react": "^19.1.0",
