@@ -16,6 +16,9 @@ for img in ./public/photos/*.{jpg,jpeg,png,JPG,JPEG,PNG}; do
     
     # Конвертация в WebP с шириной 415px, сохранением пропорций и максимальным качеством
     magick "$img" -resize 415x -quality 80 "${base}.webp"
+
+    # Удаление исходной фотографии
+    rm "$img"
     
     echo "Сконвертировано: $img -> ${base}.webp"
 done
