@@ -1,286 +1,286 @@
 [
   {
-    "name": "Огурец «краш» маринованный",
+    "title": "Огурец «краш» маринованный",
     "telegram": "https://t.me/katebreakfast/142",
     "tags": ["закуски и добавки"]
   },
   {
-    "name": "Маринованные шампиньоны",
+    "title": "Маринованные шампиньоны",
     "telegram": "https://t.me/katebreakfast/79",
     "tags": ["закуски и добавки"]
   },
   {
-    "name": "Быстрые малосольные огурчики",
+    "title": "Быстрые малосольные огурчики",
     "telegram": "https://t.me/katebreakfast/170",
     "tags": ["закуски и добавки"]
   },
   {
-    "name": "Маринованные перцы 18+",
+    "title": "Маринованные перцы 18+",
     "telegram": "https://t.me/katebreakfast/182",
     "tags": ["закуски и добавки"]
   },
   {
-    "name": "Нажористый печеночный паштет",
+    "title": "Нажористый печеночный паштет",
     "telegram": "https://t.me/katebreakfast/74",
     "tags": ["закуски и добавки"]
   },
   {
-    "name": "Салат коул-слоу",
+    "title": "Салат коул-слоу",
     "telegram": "https://t.me/katebreakfast/116",
     "tags": ["салат"]
   },
   {
-    "name": "Салат «Цезарь»",
+    "title": "Салат «Цезарь»",
     "telegram": "https://t.me/katebreakfast/63",
     "tags": ["салат"]
   },
   {
-    "name": "Салат из кольраби",
+    "title": "Салат из кольраби",
     "telegram": "https://t.me/katebreakfast/227",
     "tags": ["салат"]
   },
   {
-    "name": "Нисуаз с картофелем",
+    "title": "Нисуаз с картофелем",
     "telegram": "https://t.me/katebreakfast/218",
     "tags": ["салат"]
   },
   {
-    "name": "Универсальная заправка для салата",
+    "title": "Универсальная заправка для салата",
     "telegram": "https://t.me/katebreakfast/210",
     "tags": ["салат"]
   },
   {
-    "name": "Салат с тунцом и приколами",
+    "title": "Салат с тунцом и приколами",
     "telegram": "https://t.me/katebreakfast/166",
     "tags": ["салат"]
   },
   {
-    "name": "Заправки для салатов",
+    "title": "Заправки для салатов",
     "telegram": "https://t.me/katebreakfast/146",
     "tags": ["салат"]
   },
   {
-    "name": "Соус с тахини",
+    "title": "Соус с тахини",
     "telegram": "https://t.me/katebreakfast/145",
     "tags": ["салат"]
   },
   {
-    "name": "Полезный салат",
+    "title": "Полезный салат",
     "telegram": "https://t.me/katebreakfast/102",
     "tags": ["салат"]
   },
   {
-    "name": "Роскошный салат (кальмар, креветки, икра)",
+    "title": "Роскошный салат (кальмар, креветки, икра)",
     "telegram": "https://t.me/katebreakfast/90",
     "tags": ["салат"]
   },
   {
-    "name": "Сендвич с яйцом и авокадо",
+    "title": "Сендвич с яйцом и авокадо",
     "telegram": "https://t.me/katebreakfast/183",
     "tags": ["сендвич"]
   },
   {
-    "name": "Кимчи-грильчиз",
+    "title": "Кимчи-грильчиз",
     "telegram": "https://t.me/katebreakfast/124",
     "tags": ["сендвич"]
   },
   {
-    "name": "Сендвич с луковым мармеладом",
+    "title": "Сендвич с луковым мармеладом",
     "telegram": "https://t.me/katebreakfast/106",
     "tags": ["сендвич"]
   },
   {
-    "name": "Луковый мармелад",
+    "title": "Луковый мармелад",
     "telegram": "https://t.me/katebreakfast/108",
     "tags": ["сендвич"]
   },
   {
-    "name": "Сендвич на фокачче с бургер-соусом",
+    "title": "Сендвич на фокачче с бургер-соусом",
     "telegram": "https://t.me/katebreakfast/136",
     "tags": ["сендвич"]
   },
   {
-    "name": "Гречка-боул",
+    "title": "Гречка-боул",
     "telegram": "https://t.me/katebreakfast/68",
     "tags": ["завтрак"]
   },
   {
-    "name": "Блины с ветчиной и сыром",
+    "title": "Блины с ветчиной и сыром",
     "telegram": "https://t.me/katebreakfast/154",
     "tags": ["завтрак"]
   },
   {
-    "name": "Белая шакшука",
+    "title": "Белая шакшука",
     "telegram": "https://t.me/katebreakfast/138",
     "tags": ["завтрак"]
   },
   {
-    "name": "Пашот на бриоши с лососем и голландским соусом",
+    "title": "Пашот на бриоши с лососем и голландским соусом",
     "telegram": "https://t.me/katebreakfast/70",
     "tags": ["завтрак"]
   },
   {
-    "name": "Драники со сгущёнкой",
+    "title": "Драники со сгущёнкой",
     "telegram": "https://t.me/katebreakfast/104",
     "tags": ["завтрак"]
   },
   {
-    "name": "Мак-завтрак дома",
+    "title": "Мак-завтрак дома",
     "telegram": "https://t.me/katebreakfast/109",
     "tags": ["завтрак"]
   },
   {
-    "name": "Панкейки с беконом",
+    "title": "Панкейки с беконом",
     "telegram": "https://t.me/katebreakfast/111",
     "tags": ["завтрак"]
   },
   {
-    "name": "Лепешка «из топора»",
+    "title": "Лепешка «из топора»",
     "telegram": "https://t.me/katebreakfast/193",
     "tags": ["завтрак"]
   },
   {
-    "name": "Оладьи из цветной капусты",
+    "title": "Оладьи из цветной капусты",
     "telegram": "https://t.me/katebreakfast/202",
     "tags": ["завтрак"]
   },
   {
-    "name": "Пашот со спаржей и соусом «аля голландез»",
+    "title": "Пашот со спаржей и соусом «аля голландез»",
     "telegram": "https://t.me/katebreakfast/203",
     "tags": ["завтрак"]
   },
   {
-    "name": "Быстросуп с рисовой лапшой",
+    "title": "Быстросуп с рисовой лапшой",
     "telegram": "https://t.me/katebreakfast/101",
     "tags": ["суп"]
   },
   {
-    "name": "Гаспачо",
+    "title": "Гаспачо",
     "telegram": "https://t.me/katebreakfast/223",
     "tags": ["суп"]
   },
   {
-    "name": "Томатный суп-конструктор",
+    "title": "Томатный суп-конструктор",
     "telegram": "https://t.me/katebreakfast/201",
     "tags": ["суп"]
   },
   {
-    "name": "РЁБРА!",
+    "title": "РЁБРА!",
     "telegram": "https://t.me/katebreakfast/120",
     "tags": ["мясо"]
   },
   {
-    "name": "Говяжий язык",
+    "title": "Говяжий язык",
     "telegram": "https://t.me/katebreakfast/81",
     "tags": ["мясо"]
   },
   {
-    "name": "Запеченное бедро индейки",
+    "title": "Запеченное бедро индейки",
     "telegram": "https://t.me/katebreakfast/195",
     "tags": ["мясо"]
   },
   {
-    "name": "Колбасная вечеринка (роти+томатный соус)",
+    "title": "Колбасная вечеринка (роти+томатный соус)",
     "telegram": "https://t.me/katebreakfast/224",
     "tags": ["мясо"]
   },
   {
-    "name": "Гравлакс",
+    "title": "Гравлакс",
     "telegram": "https://t.me/katebreakfast/72",
     "tags": ["рыба"]
   },
   {
-    "name": "Жареные гёдза",
+    "title": "Жареные гёдза",
     "telegram": "https://t.me/katebreakfast/200",
     "tags": ["разное"]
   },
   {
-    "name": "Чиа пудинг",
+    "title": "Чиа пудинг",
     "telegram": "https://t.me/katebreakfast/66",
     "tags": ["десерт"]
   },
   {
-    "name": "Сырники",
+    "title": "Сырники",
     "telegram": "https://t.me/katebreakfast/64",
     "tags": ["десерт"]
   },
   {
-    "name": "Ленивые вареники",
+    "title": "Ленивые вареники",
     "telegram": "https://t.me/katebreakfast/133",
     "tags": ["десерт"]
   },
   {
-    "name": "Бриошь в сливочно-карамельной корочке",
+    "title": "Бриошь в сливочно-карамельной корочке",
     "telegram": "https://t.me/katebreakfast/143",
     "tags": ["десерт"]
   },
   {
-    "name": "Спасение блинов",
+    "title": "Спасение блинов",
     "telegram": "https://t.me/katebreakfast/228",
     "tags": ["десерт"]
   },
   {
-    "name": "Творожная начинка к блинам",
+    "title": "Творожная начинка к блинам",
     "telegram": "https://t.me/katebreakfast/176",
     "tags": ["десерт"]
   },
   {
-    "name": "Твист на крепп Сюзет",
+    "title": "Твист на крепп Сюзет",
     "telegram": "https://t.me/katebreakfast/155",
     "tags": ["десерт"]
   },
   {
-    "name": "Вафли",
+    "title": "Вафли",
     "telegram": "https://t.me/katebreakfast/164",
     "tags": ["десерт"]
   },
   {
-    "name": "Алкогольно-безалкогольный тирамису",
+    "title": "Алкогольно-безалкогольный тирамису",
     "telegram": "https://t.me/katebreakfast/134",
     "tags": ["десерт"]
   },
   {
-    "name": "Пирог из черемши и мангольда",
+    "title": "Пирог из черемши и мангольда",
     "telegram": "https://t.me/katebreakfast/189",
     "tags": ["выпечка"]
   },
   {
-    "name": "Банановый кекс",
+    "title": "Банановый кекс",
     "telegram": "https://t.me/katebreakfast/77",
     "tags": ["выпечка"]
   },
   {
-    "name": "Слоеная дрожжевая «Снежинка»",
+    "title": "Слоеная дрожжевая «Снежинка»",
     "telegram": "https://t.me/katebreakfast/97",
     "tags": ["выпечка"]
   },
   {
-    "name": "Глинтвейн 0+",
+    "title": "Глинтвейн 0+",
     "telegram": "https://t.me/katebreakfast/225",
     "tags": ["напиток"]
   },
   {
-    "name": "Какао «Мишка на севере»",
+    "title": "Какао «Мишка на севере»",
     "telegram": "https://t.me/katebreakfast/197",
     "tags": ["напиток"]
   },
   {
-    "name": "Кир рояль",
+    "title": "Кир рояль",
     "telegram": "https://t.me/katebreakfast/137",
     "tags": ["напиток"]
   },
   {
-    "name": "Матча-тоник",
+    "title": "Матча-тоник",
     "telegram": "https://t.me/katebreakfast/147",
     "tags": ["напиток"]
   },
   {
-    "name": "Айриш-кофе",
+    "title": "Айриш-кофе",
     "telegram": "https://t.me/katebreakfast/103",
     "tags": ["напиток"]
   },
   {
-    "name": "Апероль-шпритц",
+    "title": "Апероль-шпритц",
     "telegram": "https://t.me/katebreakfast/89",
     "tags": ["напиток"]
   }
