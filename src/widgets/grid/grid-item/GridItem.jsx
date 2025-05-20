@@ -5,7 +5,7 @@ export function GridItem(props) {
 
   return (
     <a className={styles.wrapper} href={props.recipe.telegram} target="_blank">
-      <img src={`./photos/${photoName}.jpeg`} alt={props.recipe.title} />
+      <img src={`./photos/${photoName}.webp`} alt={props.recipe.title} />
       <div className={styles.title}>{props.recipe.title}</div>
     </a>
   )
