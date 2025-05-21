@@ -12,11 +12,12 @@
 brew install imagemagick
 ```
 
-Установите Node.js для сборки сайта:
+Установите Node.js и зависимости для сборки сайта:
 
 ```
 brew install nvm
 nvm use 22
+npm install
 ```
 
 ### Добавление рецепта
