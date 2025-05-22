@@ -1,5 +1,10 @@
 [
   {
+    "title": "Базовая пицца",
+    "telegram": "https://t.me/katebreakfast/239",
+    "tags": ["выпечка"]
+  },
+  {
     "title": "Пряная фасоль с креветками",
     "telegram": "https://t.me/katebreakfast/237",
     "tags": ["морепродукты"]
