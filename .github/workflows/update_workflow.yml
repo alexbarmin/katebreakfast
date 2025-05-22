@@ -1,0 +1,25 @@
+name: Update Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '22' # укажите нужную версию Node.js
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run update
+      run: npm run update
