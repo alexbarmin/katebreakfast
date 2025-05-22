@@ -18,6 +18,9 @@ jobs:
       with:
         node-version: '22' # укажите нужную версию Node.js
 
+    - name: Install ImageMagick
+      run: sudo apt-get update && sudo apt-get install -y imagemagick
+
     - name: Install dependencies
       run: npm install
 
