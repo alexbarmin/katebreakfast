@@ -1,7 +1,6 @@
+import Masonry from "react-masonry-css"
 import styles from "./styles.module.css"
 import { GridItem } from "./grid-item"
-
-import Masonry from "react-masonry-css"
 
 export function Grid(props) {
   const recipes = props.recipes.map((recipe) => (
