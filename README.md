@@ -53,3 +53,5 @@ npm run update
 ### Проверка
 
 Зайдите на [katebreakfast.ru](https://katebreakfast.ru), и убедитесь что новый рецепт добавлен.
+
+.
