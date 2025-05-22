@@ -8,7 +8,7 @@
     "build": "./optimize-photos.sh && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update": "npm run build && git add . && git commit -m 'content update' && git push -u origin main"
+    "update": "npm run build && git config --global user.name 'github action' && git add . && git commit -m 'content update' && git push -u origin gh-pages"
   },
   "dependencies": {
     "react": "19.1.0",
@@ -25,6 +25,7 @@
     "eslint": "9.27.0",
     "eslint-plugin-react-hooks": "5.2.0",
     "eslint-plugin-react-refresh": "0.4.20",
+    "gh-pages": "^6.3.0",
     "globals": "16.1.0",
     "prettier": "3.5.3",
     "vite": "6.3.5"
