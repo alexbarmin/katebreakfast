@@ -14,10 +14,9 @@ const tagColors = [
 ]
 
 export function TagsFilter(props) {
-  const [activeTag, setActiveTag] = useState("салат")
+  const [activeTag, setActiveTag] = useState(null)
 
   const handleClick = (e) => {
-    console.log("e:", e.target.textContent)
     if (e.target.textContent === activeTag) {
       setActiveTag(null)
     } else {

@@ -1,11 +1,10 @@
 import recipes from "@/app/data/recipes.json"
 import tags from "@/app/data/tags.json"
 import { AppHeader } from "@/widgets/app-header"
+import { Search } from "@/widgets/search"
 import { TagsFilter } from "@/widgets/tags-filter"
 import { Grid } from "@/widgets/grid"
-import { Page } from "@/shared/ui/page"
-import { Row } from "@/shared/ui/row"
-import { Col } from "@/shared/ui/col"
+import { Page, Row, Col } from "@/shared/layout"
 
 function App() {
   return (
@@ -20,6 +19,7 @@ function App() {
       <div>
         <Row>
           <Col>
+            <Search />
             <TagsFilter tags={tags} />
           </Col>
         </Row>
