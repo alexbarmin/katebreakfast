@@ -1,12 +1,21 @@
-import recipes from "@/app/data/recipes.json"
-import tags from "@/app/data/tags.json"
+import { Page, Row, Col } from "@/shared/layout"
 import { AppHeader } from "@/widgets/app-header"
 import { Search } from "@/widgets/search"
 import { TagsFilter } from "@/widgets/tags-filter"
 import { Grid } from "@/widgets/grid"
-import { Page, Row, Col } from "@/shared/layout"
 
-function App() {
+import { useSelector, useDispatch } from "react-redux"
+import { setSearchString, setActiveTag } from "@/app/store/filterSlice"
+import { selectFilteredRecipes } from "@/app/store/filterSlice"
+
+export default function App() {
+  const dispatch = useDispatch()
+
+  const filteredRecipes = useSelector(selectFilteredRecipes)
+  const tags = useSelector((state) => state.filter.tags)
+  const searchString = useSelector((state) => state.filter.searchString)
+  const activeTag = useSelector((state) => state.filter.activeTag)
+
   return (
     <Page>
       <div>
@@ -19,20 +28,29 @@ function App() {
       <div>
         <Row>
           <Col>
-            <Search />
-            <TagsFilter tags={tags} />
+            <Search
+              value={searchString}
+              onChange={(event) => {
+                dispatch(setSearchString(event.target.value))
+              }}
+            />
+            <TagsFilter
+              tags={tags}
+              activeTag={activeTag}
+              onChange={(event) => {
+                dispatch(setActiveTag(event))
+              }}
+            />
           </Col>
         </Row>
       </div>
       <div>
         <Row>
           <Col>
-            <Grid recipes={recipes} />
+            <Grid recipes={filteredRecipes} />
           </Col>
         </Row>
       </div>
     </Page>
   )
 }
-
-export default App

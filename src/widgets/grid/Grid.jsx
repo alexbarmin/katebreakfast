@@ -3,6 +3,12 @@ import styles from "./styles.module.css"
 import { GridItem } from "./grid-item"
 
 export function Grid(props) {
+  if (!props.recipes.length) {
+    console.log("not found")
+ 
+    return "Ничего не найдено."
+  }
+
   const recipes = props.recipes.map((recipe) => (
     <GridItem key={recipe.title} recipe={recipe} />
   ))

@@ -1,4 +1,3 @@
-import { useState } from "react"
 import styles from "./styles.module.css"
 import { Tag } from "./tag"
 
@@ -14,19 +13,17 @@ const tagColors = [
 ]
 
 export function TagsFilter(props) {
-  const [activeTag, setActiveTag] = useState(null)
-
-  const handleClick = (e) => {
-    if (e.target.textContent === activeTag) {
-      setActiveTag(null)
-    } else {
-      setActiveTag(e.target.textContent)
-    }
-  }
-
   const tags = props.tags.map((tag, index) => {
     const tagColor = tagColors[index % tagColors.length]
-    return <Tag key={tag.title} title={tag.title} color={tagColor} isActive={tag.title === activeTag} onClick={handleClick}/>
+    return (
+      <Tag
+        key={tag.title}
+        title={tag.title}
+        color={tagColor}
+        isActive={tag.title === props.activeTag}
+        onClick={() => props.onChange(tag.title)}
+      />
+    )
   })
 
   return <div className={styles.wrapper}>{tags}</div>
