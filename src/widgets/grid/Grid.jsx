@@ -4,8 +4,6 @@ import { GridItem } from "./grid-item"
 
 export function Grid(props) {
   if (!props.recipes.length) {
-    console.log("not found")
- 
     return "Ничего не найдено."
   }
 

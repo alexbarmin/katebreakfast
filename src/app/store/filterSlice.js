@@ -11,12 +11,10 @@ const initialState = {
 
 const reducers = {
   setSearchString: (state, action) => {
-    console.log("search:", action.payload)
     state.searchString = action.payload
     state.activeTag = null
   },
   setActiveTag: (state, action) => {
-    console.log("tag:", action.payload)
     state.activeTag = state.activeTag === action.payload ? null : action.payload
     state.searchString = ""
   },
@@ -31,8 +29,13 @@ export const selectFilteredRecipes = (state) => {
   if (state.filter.searchString) {
     return state.filter.recipes.filter((recipe) => {
       return (
-        recipe.title.toLowerCase().includes(state.filter.searchString.toLowerCase()) ||
-        recipe.tags.join(" ").toLowerCase().includes(state.filter.searchString.toLowerCase())
+        recipe.title
+          .toLowerCase()
+          .includes(state.filter.searchString.toLowerCase()) ||
+        recipe.tags
+          .join(" ")
+          .toLowerCase()
+          .includes(state.filter.searchString.toLowerCase())
       )
     })
   }
