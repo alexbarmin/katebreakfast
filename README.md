@@ -12,11 +12,16 @@
 brew install imagemagick
 ```
 
-Установите Node.js и зависимости для сборки сайта:
+Установите Node.js для сборки сайта:
 
 ```
 brew install nvm
 nvm use 22
+```
+
+Перейдите в директорию проекта, затем установите зависимости:
+
+```
 npm install
 ```
 
@@ -53,5 +58,3 @@ npm run update
 ### Проверка
 
 Зайдите на [katebreakfast.ru](https://katebreakfast.ru), и убедитесь что новый рецепт добавлен.
-
-.
