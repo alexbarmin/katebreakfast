@@ -58,3 +58,9 @@ npm run update
 ### Проверка
 
 Зайдите на [katebreakfast.ru](https://katebreakfast.ru), и убедитесь что новый рецепт добавлен.
+
+### CI/CD
+
+При коммите в main выполняется `.github/workflows/update_workflow.yml` который выполняет checkout, установку Node.js и зависимостей, а так же imagemagick. Результат работы скрипта - сборка и пуш изменений в репозиторий.
+
+Далее выполняется action `.github/workflows/jekyll-gh-pages.yml` который ожидает статуса completed от предыдущего. Происходит build из папки `docs/` и deploy в GitHub Pages
