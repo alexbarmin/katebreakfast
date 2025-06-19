@@ -1,5 +1,20 @@
 [
   {
+    "title": "Свекольник",
+    "telegram": "https://t.me/katebreakfast/257",
+    "tags": ["супы"]
+  },
+  {
+    "title": "Кимчи",
+    "telegram": "https://t.me/katebreakfast/256",
+    "tags": ["закуски и добавки"]
+  },
+  {
+    "title": "Кимпаб",
+    "telegram": "https://t.me/katebreakfast/254",
+    "tags": ["разное"]
+  },
+  {
     "title": "Овсяное печенье",
     "telegram": "https://t.me/katebreakfast/252",
     "tags": ["выпечка"]
