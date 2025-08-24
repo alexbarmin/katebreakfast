@@ -2,11 +2,11 @@
 
   export function GridItem(props) {
     const [loaded, setLoaded] = useState(false)
-    const photoName = props.recipe.telegram.split("/").pop()
+    const photoName = props.data.telegram.split("/").pop()
 
     return (
       <a
-        href={props.recipe.telegram}
+        href={props.data.telegram}
         target="_blank"
         style={{
           height: loaded ? "auto" : "595px",
@@ -16,10 +16,10 @@
       >
         <img
           src={`./photos/${photoName}.webp`}
-          alt={props.recipe.title}
+          alt={props.data.title}
           onLoad={() => setLoaded(true)}
         />
-        <div>{props.recipe.title}</div>
+        <div>{props.data.title}</div>
       </a>
     )
   }

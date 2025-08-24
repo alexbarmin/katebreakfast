@@ -13,9 +13,9 @@
   "dependencies": {
     "@reduxjs/toolkit": "2.8.2",
     "classnames": "2.5.1",
+    "masonic": "^4.1.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-masonry-css": "1.0.16",
     "react-redux": "9.2.0"
   },
   "devDependencies": {
