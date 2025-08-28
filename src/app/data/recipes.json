@@ -1,5 +1,20 @@
 [
   {
+    "title": "Рваная говядина",
+    "telegram": "https://t.me/katebreakfast/303",
+    "tags": ["мясо"]
+  },
+  {
+    "title": "Радлер",
+    "telegram": "https://t.me/katebreakfast/301",
+    "tags": ["напитки"]
+  }, 
+  {
+    "title": "Матчагатто",
+    "telegram": "https://t.me/katebreakfast/298",
+    "tags": ["напитки"]
+  }, 
+  {
     "title": "Эспрессо+какао+лагер",
     "telegram": "https://t.me/katebreakfast/294",
     "tags": ["напитки"]
