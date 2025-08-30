@@ -18,6 +18,7 @@
           src={`./photos/${photoName}.webp`}
           alt={props.recipe.title}
           onLoad={() => setLoaded(true)}
+          loading="lazy"
         />
         <div>{props.recipe.title}</div>
       </a>
