@@ -1,5 +1,55 @@
 [
   {
+    "title": "Пирог с яблоками",
+    "telegram": "https://t.me/katebreakfast/437",
+    "tags": ["десерты"]
+  },
+  {
+    "title": "Сливочная уха с брокколи",
+    "telegram": "https://t.me/katebreakfast/404",
+    "tags": ["супы"]
+  },
+  {
+    "title": "Шарлотко-запеканка",
+    "telegram": "https://t.me/katebreakfast/398",
+    "tags": ["десерты"]
+  },
+  {
+    "title": "Ребра в сметанном соусе с солеными огурцами",
+    "telegram": "https://t.me/katebreakfast/384",
+    "tags": ["мясо"]
+  },
+  {
+    "title": "Гороховый с копченостями",
+    "telegram": "https://t.me/katebreakfast/372",
+    "tags": ["супы"]
+  },
+  {
+    "title": "Сливочная овсянка с тунцом и кабачком",
+    "telegram": "https://t.me/katebreakfast/366",
+    "tags": ["завтраки"]
+  },
+  {
+    "title": "Маринованная морковь (аля рыба)",
+    "telegram": "https://t.me/katebreakfast/358",
+    "tags": ["закуски и добавки"]
+  },
+  {
+    "title": "Буженина сувид",
+    "telegram": "https://t.me/katebreakfast/334",
+    "tags": ["мясо"]
+  },
+  {
+    "title": "Буженина",
+    "telegram": "https://t.me/katebreakfast/331",
+    "tags": ["мясо"]
+  },
+  {
+    "title": "Солянка",
+    "telegram": "https://t.me/katebreakfast/328",
+    "tags": ["супы"]
+  },
+  {
     "title": "Казаречче с рваной говядиной",
     "telegram": "https://t.me/katebreakfast/321",
     "tags": ["мясо"]
