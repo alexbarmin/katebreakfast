@@ -1,5 +1,10 @@
 [
   {
+    "title": "Коктейль 'Новогодний'",
+    "telegram": "https://t.me/katebreakfast/439",
+    "tags": ["напитки"]
+  }, 
+  {
     "title": "Пирог с яблоками",
     "telegram": "https://t.me/katebreakfast/437",
     "tags": ["десерты"]
