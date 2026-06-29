@@ -20,7 +20,11 @@ jobs:
         node-version: '22' # укажите нужную версию Node.js
 
     - name: Setup ImageMagick
-      uses: mfinelli/setup-imagemagick@v7
+      run: |
+        mkdir -p ~/bin
+        echo "$HOME/bin" >> $GITHUB_PATH
+        curl -fsSL -o ~/bin/magick https://download.imagemagick.org/archive/binaries/magick
+        chmod +x ~/bin/magick
 
     - name: Install dependencies
       run: npm install
